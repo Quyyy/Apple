@@ -1,0 +1,429 @@
+@font-face {
+  src: url(media/fonts/sf/SFProDisplay-Bold.woff);
+  font-family: SFBold;
+}
+
+@font-face {
+  src: url(media/fonts/sf/SFProDisplay-Medium.woff);
+  font-family: SFMedium;
+}
+
+@font-face {
+  src: url(media/fonts/sf/SFProDisplay-Light.woff);
+  font-family: SFLight;
+}
+
+@font-face {
+  src: url(media/fonts/sf/SFProDisplay-Regular.woff);
+  font-family: SFRegular;
+}
+
+@font-face {
+  src: url(media/fonts/sf/SFProDisplay-Ultralight.woff);
+  font-family: SFUltraLight;
+}
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: SFRegular;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0;
+  background-color: #fff;
+  text-align: center;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.sticky + .content {
+  padding-top: 97px;
+}
+
+
+
+header .container {
+  width: 70%;
+}
+
+header {
+  background: #fff;
+  color: #000;
+  padding-top: 27px;
+  min-height: 70px;
+  padding-bottom: 20px;
+  display: flex;
+  opacity: 100%;
+}
+
+header a {
+  color: #7a7a7a;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+header ul {
+  margin: 0;
+  padding: 0;
+}
+
+header li {
+  float: left;
+  display: inline;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+header #logo {
+  float: left;
+}
+
+header #logo img {
+  margin: 0;
+}
+
+header #logo img:hover {
+  transform: rotate(360deg);
+  transition-duration: 0.45s
+}
+
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+
+header .actief a {
+  color: #000;
+  font-family: SFBold;
+}
+
+header a:hover {
+  color: #000;
+  transition-duration: 0.25s;
+}
+
+
+#front .container {
+  width: 80%;
+}
+
+#front {
+  min-height:460px;
+  background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  color: #000;
+}
+
+#front .box {
+  float: left;
+  width: 50%;
+  text-align: center;
+  padding: 30px;
+}
+
+#front h1 {
+  margin-top: 80px;
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+
+#front h2 {
+  font-size: 26px;
+  margin-top: -15px;
+}
+
+#front p {
+  font-size: 15px;
+  margin-top: -20px;
+  margin-bottom: 40px;
+}
+
+#front .front-knop {
+	background-color: #4da2fc;
+	border-radius: 12px;
+	border: 2px solid #4da2fc;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family: SFMedium;
+	font-size: 15px;
+	padding: 8px 49px;
+	text-decoration: none;
+}
+#front .front-knop:hover {
+	background-color: transparent;
+  color: #4da2fc;
+  transition-duration: 0.35s;
+}
+
+
+
+#nieuwsbrief {
+  padding: 120px;
+  color: #000;
+}
+
+#nieuwsbrief h1 {
+  text-align: center;
+  font-family: SFRegular;
+  font-size: 27px;
+}
+
+#nieuwsbrief h2 {
+  text-align: center;
+  font-family: SFLight;
+  font-size: 21px;
+  font-weight: 500;
+  margin-top: -20px;
+}
+
+#nieuwsbrief form {
+  display: inline-block;
+  width: 400px;
+  height: 40px;
+  background: #fff;
+  border-radius: 12px;
+}
+
+#nieuwsbrief input[type="email"]{
+  padding: 0 20px;
+  height: 40px;
+  width: 400px;
+  border-radius: 12px;
+  border: 1px solid #a3a3a3;
+  background: none;
+  outline: none;
+  font-size: 15px;
+  font-family: SFRegular;
+  padding-right: 80px;
+}
+
+#nieuwsbrief input:focus {
+  border: 2px solid #4da2fc;
+}
+
+
+
+#aanbevolen {
+  margin-top: 20px;
+}
+
+#aanbevolen .box {
+  float: left;
+  text-align: center;
+  width: 33.33333333%;
+  padding: 10px;
+}
+
+#aanbevolen .box img {
+  width: 200px;
+}
+
+#aanbevolen h1 {
+  font-size: 26px;
+}
+
+#aanbevolen h2 {
+  font-size: 20px;
+  color: #6a6a6a;
+  font-family: SFLight;
+  font-weight: 500;
+  margin-top: -22px;
+}
+
+#aanbevolen p {
+  font-size: 20px;
+}
+
+#aanbevolen a {
+  color: #4da2fc;
+  text-decoration: none;
+  font-size: 19px;
+}
+
+#aanbevolen a:hover {
+  color: #007cff;
+  transition-duration: 0.35s;
+}
+
+
+
+#producten {
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+#producten .box {
+  float: left;
+  text-align: center;
+  width: 33.33333333%;
+  padding: 10px 0 80px;
+}
+
+#producten .box img {
+  width: 200px;
+}
+
+#producten hr {
+  color: #FFF;
+}
+
+#producten h1 {
+  text-align: left;
+  font-family: SFLight;
+  font-weight: 500;
+  color: #8a8a8a;
+}
+
+#producten h2 {
+  font-size: 26px;
+}
+
+#producten h3 {
+  font-size: 20px;
+  color: #6a6a6a;
+  font-family: SFLight;
+  font-weight: 500;
+  margin-top: -22px;
+}
+
+#producten p {
+  font-size: 16px;
+  text-align: left;
+  color: #8a8a8a;
+}
+
+#producten a {
+  color: #4da2fc;
+  text-decoration: none;
+  font-size: 19px;
+}
+
+#producten a:hover {
+  color: #007cff;
+  transition-duration: 0.35s;
+}
+
+
+
+footer {
+  width: 90%;
+  padding: 20px;
+  margin-top: 50px;
+  color: #4a4a4a;
+  background-color: #ffffff;
+  text-align: right;
+}
+
+
+@media(max-width: 768px) {
+  header #logo,
+  header nav,
+  header nav li {
+    float: none;
+    width: 100%;
+  }
+
+  .sticky + .content {
+    padding-top: 164px;
+  }
+
+  header #logo img {
+    margin-left: -15px;
+  }
+
+  header nav {
+    margin-top: 20px;
+  }
+
+  header ul li a {
+    font-size: 16px;
+    margin-left: -15px;
+  }
+
+  header {
+    padding-bottom: 20px;
+  }
+
+  #front .box {
+    float: none;
+    width: 100%;
+  }
+
+  #front h1 {
+    font-size: 37px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+  }
+
+  #front h2 {
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 36px;
+  }
+
+  #front img {
+    width: 90%;
+    height: 90%;
+    padding-bottom: 40px;
+  }
+
+  #nieuwsbrief {
+    width: 100%;
+    padding: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  #nieuwsbrief h1 {
+    font-size: 25px;
+  }
+
+  #nieuwsbrief h2 {
+    font-size: 17px;
+    margin-bottom: 22px;
+  }
+
+  #nieuwsbrief form {
+    width: 90%;
+  }
+
+  #nieuwsbrief input[type="email"]{
+    width: 90%;
+  }
+
+  #aanbevolen .box {
+    width: 100%;
+  }
+
+  #producten .box {
+    width: 100%;
+  }
+
+  footer {
+    width: 100%;
+  }
+
+}
+
+@media(max-width: 1024px) {
+  footer {
+    width: 95%;
+  }
+}
