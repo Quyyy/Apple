@@ -126,7 +126,7 @@ header a:hover {
 
 #front {
   min-height:460px;
-  background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  background-image: linear-gradient(225deg, #5271C4 0%, #B19FFF 48%, #ECA1FE 100%);
   color: #000;
 }
 
@@ -156,13 +156,13 @@ header a:hover {
 
 #front .front-knop {
 	background-color: #4da2fc;
-	border-radius: 12px;
+	border-radius: 24px;
 	border: 2px solid #4da2fc;
 	display: inline-block;
 	cursor: pointer;
 	color: #ffffff;
 	font-family: SFMedium;
-	font-size: 15px;
+	font-size: 17px;
 	padding: 8px 49px;
 	text-decoration: none;
 }
@@ -172,17 +172,49 @@ header a:hover {
   transition-duration: 0.35s;
 }
 
+#front .info-knop {
+  color: #4da2fc;
+  text-decoration: none;
+  font-size: 17px;
+  padding-left: 20px;
+  font-family: SFMedium;
+}
 
+#front .info-knop:hover {
+  color: #007cff;
+  transition-duration: 0.35s;
+}
+
+#front-info h1 {
+  text-align: left;
+  font-size: 27px;
+  font-weight: 500;
+  font-family: SFBold;
+}
+
+#front-info p {
+  font-weight: 500;
+  font-family: SFRegular;
+  font-size: 17px;
+  text-align: left;
+}
+
+#front-info .box {
+  width: 50%;
+  padding: 50px 0;
+  float: left;
+}
 
 #nieuwsbrief {
-  padding: 120px;
+  padding: 100px;
   color: #000;
 }
 
 #nieuwsbrief h1 {
   text-align: center;
-  font-family: SFRegular;
   font-size: 27px;
+  font-weight: 500;
+  font-family: SFBold;
 }
 
 #nieuwsbrief h2 {
@@ -235,11 +267,19 @@ header a:hover {
   width: 200px;
 }
 
-#aanbevolen h1 {
+#aanbevolen h2 {
   font-size: 26px;
+  font-weight: 500;
+  font-family: SFMedium;
 }
 
-#aanbevolen h2 {
+#aanbevolen h1 {
+  font-size: 27px;
+  font-weight: 500;
+  font-family: SFBold;
+}
+
+#aanbevolen h3 {
   font-size: 20px;
   color: #6a6a6a;
   font-family: SFLight;
@@ -264,38 +304,38 @@ header a:hover {
 
 
 
-#producten {
+.producten {
   margin-top: 20px;
   margin-bottom: 60px;
 }
 
-#producten .box {
+.producten .box {
   float: left;
   text-align: center;
   width: 33.33333333%;
   padding: 10px 0 80px;
 }
 
-#producten .box img {
+.producten .box img {
   width: 200px;
 }
 
-#producten hr {
+.producten hr {
   color: #FFF;
 }
 
-#producten h1 {
+.producten h1 {
   text-align: left;
   font-family: SFLight;
   font-weight: 500;
   color: #8a8a8a;
 }
 
-#producten h2 {
+.producten h2 {
   font-size: 26px;
 }
 
-#producten h3 {
+.producten h3 {
   font-size: 20px;
   color: #6a6a6a;
   font-family: SFLight;
@@ -303,24 +343,447 @@ header a:hover {
   margin-top: -22px;
 }
 
-#producten p {
+.producten p {
   font-size: 16px;
   text-align: left;
   color: #8a8a8a;
 }
 
-#producten a {
+.producten a {
   color: #4da2fc;
   text-decoration: none;
   font-size: 19px;
 }
 
-#producten a:hover {
+.producten a:hover {
   color: #007cff;
   transition-duration: 0.35s;
 }
 
 
+
+.over-content .container {
+  width: 70%;
+}
+
+#over-bg {
+  min-height: 340px;
+  background-image: url(media/applehq.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  font-family: SFLight;
+  font-weight: 500;
+}
+
+#over-bg:hover {
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
+  transition-duration: 0.5s;
+}
+
+#over-bg p {
+  float: left;
+  margin: 0;
+  padding: 20px;
+  font-size: 19px;
+  padding-bottom: 0;
+}
+
+#over-bg .over-nav {
+  float: right;
+  text-align: right;
+}
+
+#over-bg .over-nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 19px;
+}
+
+#over-bg .over-nav a:hover {
+  color: #70b6ff;
+  transition-duration: 0.35s;
+}
+
+#over-bg .over-nav ul {
+  margin: 0;
+  padding: 20px;
+}
+
+#over-bg .over-nav li {
+  float: left;
+  display: inline;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+#over-bg .container {
+  width: 70%;
+}
+
+#over-bg hr {
+  color: #fff;
+  margin: auto;
+  display: inline-block;
+  width: 100%;
+  height: 2px;
+}
+
+#inleiding {
+  margin-top: 10px;
+}
+
+.over-titel {
+  text-align: left;
+  font-weight: 500;
+  font-family: SFBold;
+  font-size: 60px;
+}
+
+.over-tekst {
+  text-align: left;
+  font-size: 16px;
+  font-family: SFRegular;
+  font-weight: 500;
+}
+
+.over-alinea-titel {
+  font-size: 30px;
+  font-family: SFBold;
+  font-weight: 500;
+  text-align: left;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+
+#music-front .container {
+  width: 80%;
+}
+
+#music-front {
+  min-height:460px;
+  background-image: linear-gradient(-225deg, #FF057C 0%, #8D0B93 50%, #321575 100%);
+  color: #fff;
+}
+
+#music-front .box {
+  float: left;
+  width: 100%;
+  text-align: center;
+  padding: 30px;
+}
+
+#music-front h1 {
+  margin-top: 80px;
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+
+#music-front h2 {
+  font-size: 26px;
+  margin-top: 10px;
+}
+
+#music-front p {
+  font-size: 15px;
+  margin-top: -20px;
+  margin-bottom: 40px;
+}
+
+#music-front .front-knop {
+	background-color: #fff;
+	border-radius: 24px;
+	border: 2px solid #fff;
+	display: inline-block;
+	cursor: pointer;
+	color: #000;
+	font-family: SFMedium;
+	font-size: 17px;
+	padding: 8px 49px;
+	text-decoration: none;
+}
+
+#music-front .front-knop:hover {
+	background-color: transparent;
+  color: #fff;
+  transition-duration: 0.35s;
+}
+
+#music-front .info-knop {
+  color: #fff;
+  text-decoration: none;
+  font-size: 17px;
+  padding-left: 20px;
+  font-family: SFMedium;
+}
+
+#music-front .info-knop:hover {
+  color: #fff;
+  text-decoration: underline;
+  transition-duration: 0.35s;
+}
+
+#embed .box {
+  float: left;
+  text-align: center;
+  width: 50%;
+  padding: 100px 10px 100px;
+}
+
+#info {
+  background-image: linear-gradient(20deg, #6e45e2 0%, #88d3ce 100%);
+  color: #fff;
+}
+
+#info h1 {
+  font-weight: 500;
+  font-family: SFBold;
+  font-size: 40px;
+  margin: 0;
+}
+
+#info .box {
+  width: 100%;
+  padding: 100px 0 100px;
+}
+
+#info-2 .box {
+  width: 33.33333333%;
+  float: left;
+  padding: 100px 0 100px;
+}
+
+#info-2 h1 {
+  font-weight: 500;
+  font-family: SFBold;
+  font-size: 20px;
+  margin: 0;
+  padding-bottom: 50px;
+}
+
+#info-3 {
+  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #fff;
+}
+
+#info-3 .box {
+  width: 100%;
+  padding: 100px 0 100px;
+}
+
+#info-3 .box-33 {
+  width: 33.33333333%;
+  float: left;
+  padding: 0 0 100px;
+  text-align: center;
+}
+
+#info-3 p {
+  margin-bottom: 0;
+}
+
+#info-3 h1 {
+  font-weight: 500;
+  font-family: SFBold;
+  font-size: 40px;
+  margin: 0;
+  margin-top: -10px;
+}
+
+#info-3 h2 {
+  font-weight: 500;
+  font-family: SFBold;
+  font-size: 30px;
+  margin: 0;
+  padding-bottom: 40px;
+}
+
+#info-3 ul {
+  text-align: left;
+  display: inline-block;
+  margin: auto;
+  padding-bottom: 60px;
+}
+
+#info-3 h3 {
+  font-weight: 500;
+  font-family: SFRegular;
+  font-size: 18px;
+  margin: 0;
+  padding-bottom: 40px;
+  margin-top: -27px;
+}
+
+#info-3 .probeer-knop {
+	background-color: #ff2659;
+	border-radius: 24px;
+	border: 2px solid #ff2659;
+	display: inline-block;
+	cursor: pointer;
+	color: #fff;
+	font-family: SFMedium;
+	font-size: 17px;
+	padding: 8px 49px;
+	text-decoration: none;
+}
+
+#info-3 .probeer-knop:hover {
+	background-color: transparent;
+  color: #ff2659;
+  transition-duration: 0.35s;
+}
+
+#support-front {
+  margin: auto;
+  min-height: 300px;
+  background-image: url(media/supportbanner.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);
+}
+
+#support-front h1 {
+  font-weight: 500;
+  font-family: SFBold;
+  font-size: 40px;
+  color: #fff;
+}
+
+#support-front .box {
+  margin-top: 113px;
+}
+
+#support-1 .container {
+  width: 70%;
+}
+
+#support-1 .box {
+  width: 50%;
+  padding: 50px 20px 50px;
+  float: left;
+}
+
+#support-1 h1 {
+  font-weight: 500;
+  font-family: SFBold;
+  font-size: 27px;
+  text-align: left;
+}
+
+#support-1 p {
+  font-weight: 500;
+  font-family: SFRegular;
+  font-size: 17px;
+  text-align: left;
+}
+
+#support-1 a {
+  color: #4da2fc;
+  text-decoration: none;
+  font-size: 19px;
+  float: left;
+}
+
+#support-1 a:hover {
+  color: #007cff;
+  transition-duration: 0.35s;
+}
+
+#support-2 .container {
+  width: 70%;
+}
+
+#support-2 .box {
+  width: 100%;
+  padding: 50px 20px 50px;
+  float: left;
+}
+
+#support-2 h1 {
+  font-weight: 500;
+  font-family: SFBold;
+  font-size: 27px;
+  text-align: left;
+}
+
+#support-2 p {
+  font-weight: 500;
+  font-family: SFRegular;
+  font-size: 17px;
+  text-align: left;
+}
+
+#support-2 a {
+  color: #4da2fc;
+  text-decoration: none;
+}
+
+#support-2 a:hover {
+  color: #007cff;
+  transition-duration: 0.35s;
+}
+
+#telefoon .container {
+  width: 70%;
+}
+
+#telefoon .box {
+  width: 50%;
+  padding: 50px 20px 50px;
+  float: left;
+}
+
+#telefoon ul {
+  list-style-type: none;
+}
+
+#telefoon .continenten {
+  padding-bottom: 50px;
+}
+
+#telefoon .continenten a {
+  display: block;
+  font-size: 18px;
+}
+
+#telefoon .box ul li a {
+  float: none;
+  text-align: left;
+}
+
+#telefoon h1 {
+  font-weight: 500;
+  font-family: SFBold;
+  font-size: 27px;
+  text-align: left;
+}
+
+#telefoon h2 {
+  font-weight: 500;
+  font-family: SFMedium;
+  font-size: 22px;
+  text-align: left;
+}
+
+#telefoon p {
+  font-weight: 500;
+  font-family: SFRegular;
+  font-size: 17px;
+  text-align: left;
+}
+
+#telefoon a {
+  color: #4da2fc;
+  text-decoration: none;
+}
+
+#telefoon a:hover {
+  color: #007cff;
+  transition-duration: 0.35s;
+}
 
 footer {
   width: 90%;
@@ -332,6 +795,7 @@ footer {
 }
 
 
+/* Mobiel */
 @media(max-width: 768px) {
   header #logo,
   header nav,
@@ -345,7 +809,7 @@ footer {
   }
 
   header #logo img {
-    margin-left: -15px;
+    margin-left: -16px;
   }
 
   header nav {
@@ -354,12 +818,14 @@ footer {
 
   header ul li a {
     font-size: 16px;
-    margin-left: -15px;
+    margin-left: -16px;
   }
 
   header {
     padding-bottom: 20px;
   }
+
+
 
   #front .box {
     float: none;
@@ -382,6 +848,15 @@ footer {
     width: 90%;
     height: 90%;
     padding-bottom: 40px;
+  }
+
+  #front-info img {
+    height: 100%;
+    width: 100%;
+  }
+
+  #front-info .box {
+    width: 100%;
   }
 
   #nieuwsbrief {
@@ -412,7 +887,63 @@ footer {
     width: 100%;
   }
 
-  #producten .box {
+  .producten .box {
+    width: 100%;
+  }
+
+  #over-bg p {
+    float: none;
+    margin: auto;
+    display: inline-block;
+  }
+
+  #over-bg .over-nav a {
+    float: none;
+    font-size: 18px;
+  }
+
+  #over-bg h1 {
+    font-size: 40px;
+    padding-top: 10px;
+  }
+
+  #music-front img {
+    width: 100%;
+  }
+
+  #embed .box {
+    width: 100%;
+    padding: 50px 0 50px;
+  }
+
+  #info-2 .box {
+    width: 100%;
+  }
+
+  #info-3 h1 {
+    font-size: 34px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  #info-3 h2 {
+    font-size: 22px;
+  }
+
+  #info-3 .box-33 {
+    width: 100%;
+  }
+
+  #support-front h1 {
+    font-size: 27px;
+    padding-top: 13px
+  }
+
+  #telefoon .box {
+    width: 100%;
+  }
+
+  #support-1 .box {
     width: 100%;
   }
 
@@ -422,8 +953,61 @@ footer {
 
 }
 
+
+/* iPad */
 @media(max-width: 1024px) {
   footer {
     width: 95%;
+  }
+
+  #front img {
+    width: 90%;
+    height: 90%;
+  }
+
+  #front h1 {
+    font-size: 40px;
+  }
+
+  #front h2 {
+    font-size: 20px;
+  }
+
+  #front-info img {
+    height: 100%;
+    width: 100%;
+  }
+
+  #front-info .box {
+    width: 100%;
+  }
+
+  #over-bg p, nav {
+    float: none;
+    margin: auto;
+    display: inline-block;
+    text-align: center;
+  }
+
+  #over-bg .over-nav a {
+    float: none;
+    font-size: 18px;
+  }
+
+  #over-bg h1 {
+    font-size: 40px;
+    padding-top: 10px;
+  }
+
+  #music-front img {
+    width: 100%;
+  }
+
+  #telefoon .box {
+    width: 100%;
+  }
+
+  #support-1 .box {
+    width: 100%;
   }
 }
